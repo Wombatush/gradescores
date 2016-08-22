@@ -5,6 +5,9 @@
     using System.Text;
     using JetBrains.Annotations;
 
+    /// <summary>
+    /// Test writer proxy to perform the same output into multiple writers.
+    /// </summary>
     internal sealed class TextWriterProxy : TextWriter
     {
         private readonly TextWriter baseWriter;

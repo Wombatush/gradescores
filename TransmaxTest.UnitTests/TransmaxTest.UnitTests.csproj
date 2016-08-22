@@ -60,6 +60,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InvertedLongComparerFixture.cs" />
     <Compile Include="OrderByScoreServiceFixture.cs" />
     <Compile Include="StringScoreReaderFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
